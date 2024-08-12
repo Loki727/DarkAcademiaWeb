@@ -1,7 +1,7 @@
 # DarkAcademiaWeb
 The project includes a page in the theme of the aesthetic trend "Dark Academy". On this page the user will be able to learn more about the trend itself sign up for the newsletter and contact the owner of the site.
 
-##Page execution report
+## Page execution report
 
 -The website was designed in the style of "Dark Academy" and includes the following subsections: "Home", "About us", "Newsletter" and "Contact".
 -The website has been optimized for responsiveness, which means that its appearance and functionality are automatically adjusted to the resolution and size of the screen on which it is displayed. This makes the site readable and easy to use on both desktop computers and mobile devices.
