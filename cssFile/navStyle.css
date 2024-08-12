@@ -1,0 +1,129 @@
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem; 
+    background: #1a2328;
+    z-index: 5;
+}
+nav h2{
+    color: #baac91;
+    font-size: 1.7rem;
+}
+#navbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#navbtn li{
+    height: 100%;
+    background: #4e4234;
+    list-style: none;
+    padding: 5px 25px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+#navbtn li:hover{
+
+}
+#navbtn a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+#bar{
+	
+	font-size: 1.5 rem;
+	color: #fff;
+	display:none;
+}
+
+@media screen and (max-width: 1024px){
+	nav{
+        padding: 1rem 4.5rem;
+	}
+	nav h2{
+		font-size: 1.4rem;
+	}
+
+}
+
+@media screen and (max-width: 991px){
+	nav{
+        padding: 1rem 3rem;
+    }
+    nav h2{
+        font-size: 1.6rem;
+    }
+    #navbtn{
+        flex-direction: column;
+        width: 300px;
+        height: 30vh;
+        position:fixed;
+        top:0;
+        right: -300px;
+        background: rgba(0,0,0,0.8);
+        z-index:100000;
+        margin-top: 3.8rem;
+        transition:0.5s;
+    }
+    #navbtn li{
+        background: transparent;
+        padding: 4px 10px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    #navbtn li:hover{
+        color:#3a5e52;
+    }
+    #navbtn a{
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size:1.2rem;
+    }
+    #bar{
+
+        display:initial;
+        cursor:pointer;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav h2{
+        font-size: 1.5rem;
+    }
+    #navbtn{
+        margin-top: 3.7rem;
+    }
+}
+
+
+@media screen and (max-width: 496px){
+	nav{
+        padding: 1rem 5rem;
+    }
+    nav h2{
+        font-size: 1.7rem;
+    }
+    #navbtn{
+    	margin-top: 3.9rem;
+        width: 250px;
+        height: 25vh;
+    }
+    #navbtn li{
+        padding-right: 40px;
+    }
+    #navbtn a{
+    	font-size:1rem;
+    }
+    #bar{
+        padding-right:20px;
+    }
+}

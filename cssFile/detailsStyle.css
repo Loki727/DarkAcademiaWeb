@@ -1,0 +1,145 @@
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #baac91;
+    background-color: #352315;
+    padding: 5rem 10rem;
+    font-size: 1rem;
+}
+
+.details .left{
+    width: 45%;
+}
+.details .left h3{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+}
+.details .left h6{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 1.1rem;
+}
+.details .left p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1.1rem;
+}
+
+.details .right{
+    text-align: center;
+    width: 45%;
+    border-left: 1px solid #baac91;
+    padding-left: 4rem;
+}
+.details .right h3{
+    font-size: 2.5rem;
+}
+.details .right h5{
+    font-size: 1.2rem;
+    margin-top: 1.1rem;
+}
+.details .right p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 1024px){
+	.details .right h3{
+        font-size: 2rem;
+    }
+    .details .left h3{
+       font-size: 2rem;
+    }
+    .details{
+        padding: 5rem 8rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 991px){
+	.details{
+		padding: 5rem 7rem;
+		font-size: 0.8rem;
+	}
+	.details .left{
+		width: 50%;
+	}
+	.details .left h3{
+		padding-bottom: 0.9rem;
+	}
+	.details .left p{
+		font-size: 0.9rem;
+		padding-bottom: 1rem;
+	}
+	.details .right h3{
+		font-size: 2rem;
+	}
+	.details .right h5{
+		font-size: 1.1rem;
+		margin-top: 1rem;
+	}
+	.details .right p{
+		font-size: 0.9rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+	.details{
+		padding: 5rem 2rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+	}
+	.details .left{
+		width: 70%;
+		text-align: center;
+	}
+	.details .left h3{
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    .details .right h3{
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+	.details .left p{
+		font-size: 1rem;
+	}
+	.details .right{
+		width: 70%;
+		border-left: 0;
+		padding-left: 0;
+		border-top: 1px solid #baac91;
+		margin-top: 1.7rem;
+		padding-top: 1.7rem;
+        margin-bottom: 1.7rem;
+	}
+}
+
+@media screen and (max-width: 496px){
+    .details .left{
+    	width: 100%;
+    }
+    .details .left p{
+    	font-size: 0.8rem;
+    }
+    .details .left h6{
+        font-size: 1rem;
+    }
+    .details .left h3{
+        font-size: 1.5rem;
+    }
+    .details .right{
+    	width: 100%;
+    }
+    .details .right h3{
+        font-size: 1.5rem;
+    }
+}

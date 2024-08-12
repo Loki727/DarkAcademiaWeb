@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dark Academy</title>
+        <link rel="icon" href="images/icons.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--css style website-->
+        <link rel="stylesheet" href="cssFile/style.css">
+        <link rel="stylesheet" href="cssFile/navStyle.css">
+        <link rel="stylesheet" href="cssFile/detailsStyle.css">
+        <link rel="stylesheet" href="cssFile/newsletterStyle.css">
+        <link rel="stylesheet" href="cssFile/contactStyle.css">
+        <link rel="stylesheet" href="cssFile/footerStyle.css">
+    <!--icons-->
+        <script src="https://kit.fontawesome.com/d5bbd9f191.js" crossorigin="anonymous"></script>
+    <!--Scripts-->
+        <script src="jsFile/jquery-3.6.1.min.js"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <nav>
+            <h2>Dark Academy</h2>
+            <ul id="navbtn">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#details">ABOUT US</a></li>
+                <li><a href="#newsletter">FORM</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+			<i id="bar" class="fa-solid fa-bars"></i>
+        </nav>
+        <header id="home">
+            <div class="caption">
+                <span>
+                    <h1>Welcome to Dark Academy</h1>
+                    <h2>Here you will develop your passions</h2>
+                </span>
+            </div>
+        </header>
+        <div class="details" id="details">
+            <div class="left" data-aos="fade-left">
+                <h3>About Dark Academy</h3>
+                <h6>I wonder if this is how people always get close: They heal each other's  wounds; they repair the broken skin<br> ~Lauren Oliver, Pandemonium</h6>
+                <p>Dark academia is a literary and social media aesthetic and subculture concerned with higher education, writing/poetry, the arts, and classic Greek and Gothic architecture. The fashion of the 1930s and 1940s features prominently in the dark academia aesthetic, particularly clothing associated with attendance at Oxbridge, Ivy League schools, and prep schools of the period.</p>
+            </div>
+            <div class="right" data-aos="fade-right">
+                <h3>Working hours</h3>
+                <h5>Saturday, Sunday </h5> 
+                <p>Closed</p>
+                <h5>Monday- Fiday</h5>
+                <p>6:00 - 18:00</p>
+            </div>
+        </div>
+        <div class="newsletter" id="newsletter">
+            <div class="newsletterForm" data-aos="fade-up">
+                <form action="">
+                    <h2>Newsletter</h2>
+                    <p>Enter your e-mail and get interesting news from our website</p>
+                    <input type="email" placeholder="e-mail" id="nwsinput">
+                    <p id="warn"></p>
+                    <input type="submit" value="SIGN UP" id="nwsbutton">
+                </form>
+            </div>
+            <div class="people" data-aos="fade-up">
+                <div class="team">
+                    <div class="img">
+                        <img src="images/PięknaPani.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <h4>Csilla Sapphire</h4> <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="name">
+                            <p>fashion stylist</p> <i class="fa-regular fa-lightbulb"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="infoContact" data-aos="fade-up">
+                <h2>Contact with us by:</h2>
+                <a href="mailto:###@##.##">E-mail <i class="fa-solid fa-square-envelope"></i></a>
+                <a href="tel:+## ### ### ###">Telephone <i class="fa-solid fa-square-phone"></i></a>
+                <a href="#">Twitter <i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#">Messenger <i class="fa-brands fa-facebook-messenger"></i></a>
+            </div>
+            <div class="map" data-aos="fade-up">
+                <h2>Where can you find us</h2>
+                <p><i class="fa-solid fa-location-dot"></i>14 St James's Square, St. James's, London SW1Y 4LG, Wielka Brytania</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9933.265759775419!2d-0.1365997!3d51.5074103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd281f6460b1bef59!2sThe%20London%20Library!5e0!3m2!1spl!2spl!4v1667389618177!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © 2022 Dark Academy Design: Maksymilian Oleksy</p>
+        </footer>
+        
+        <script src="jsFile/newsletter.js"></script>
+		<script src="jsFile/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+    AOS.init({
+        offset: 200,
+        duration: 1000,
+    });
+  </script>
+    </body>
+</html>

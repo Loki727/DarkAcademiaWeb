@@ -1,0 +1,137 @@
+.contact{
+    background: #45271f;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact .infoContact{
+    padding: 3rem;
+    text-align: center;
+    background: url(../images/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+}
+.contact .infoContact h2{
+    font-size: 2.2rem;
+    color: #9c7437;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.contact .infoContact a{
+    display: block;
+    font-size: 1.8rem;
+    color: #d4a152;
+    text-decoration: none;
+}
+.contact .infoContact a:hover{
+    color: #b88b49;
+    text-decoration: underline;
+}
+.contact .map {
+    width: 45%;
+}
+.contact .map h2{
+    font-size: 2rem;
+    color:#9c7437;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.contact .map p{
+    font-size: 1.1rem;
+    color:#a87d3b;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.contact .map i{
+    color:#9f3632;
+}
+.contact .map iframe{
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .contact .infoContact h2{
+		font-size: 2rem;
+	}
+	.contact .infoContact a{
+		font-size: 2rem;
+	}
+	.contact .map h2{
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.contact{
+		padding: 6rem;
+	}
+	.contact .infoContact{
+		padding: 3rem;
+	}
+	.contact .infoContact h2{
+		font-size: 1.5rem;
+		padding-bottom: 7px;
+	}
+	.contact .infoContact a{
+		font-size: 1.5rem;
+	}
+	.contact .map {
+		width: 45%;
+	}
+	.contact .map h2{
+		font-size: 1.5rem;
+		padding-bottom: 7px;
+	}
+	.contact .map p{
+		font-size: 1rem;
+		padding-bottom: 5px;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+	.contact{
+		padding: 5rem 2rem;
+		flex-direction: column;
+        justify-content: center;
+        align-items:center;
+	}
+	.contact .infoContact{
+        width: 70%;
+        margin-bottom: 2rem;
+	}
+	.contact .infoContact h2{
+		padding-bottom: 1rem;
+	}
+	.contact .infoContact a{
+		padding-bottom: 1rem;
+	}
+	.contact .map {
+		width: 60%;
+	}
+	.contact .map h2{
+		padding-bottom: 1rem;
+	}
+	.contact .map p{
+		padding-bottom: 1rem;
+	}
+}
+
+@media screen and (max-width: 496px){
+	.contact{
+		padding: 5rem 2rem;
+		flex-direction: column;
+        justify-content: center;
+        align-items:center;
+	}
+	.contact .infoContact{
+		padding: 3rem;
+        width: 100%;
+	}
+	.contact .map {
+		width: 90%;
+	}
+}

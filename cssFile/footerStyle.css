@@ -1,0 +1,22 @@
+footer{
+    padding: 1.2rem;
+    background: #010005;
+}
+footer p{
+    font-size: .8rem;
+    color: #baac91;
+}
+@media screen and (max-width: 991px){
+	footer{
+        padding: 1rem;
+    }
+    footer p{
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 768px){
+    footer{
+	    padding: 2rem;
+	}
+	
+}

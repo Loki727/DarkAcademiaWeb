@@ -1,0 +1,193 @@
+.newsletter{
+    background: url(../images/bg2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter .newsletterForm{
+    padding-top: 8rem;
+    text-align: center;
+    align-items: center;
+    background-color:#4e4234 ;
+    width: 39%;
+    height: 50vh;
+}
+.newsletter .newsletterForm input[type=email]{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+    text-align: center;
+}
+.newsletter .newsletterForm input[type=submit]{
+    cursor: pointer;
+    margin-top: 1.1rem;
+    font-size: 1.1rem;
+    background: #baac91;
+    color: #010005;
+    padding: 0.8rem 5rem;
+    text-align: center;
+}
+.newsletter .newsletterForm input[type=submit]:hover{
+    background: #a0937a;
+    font-weight: 600;
+    border: 2.5px solid #000;
+}
+
+
+.newsletter .newsletterForm p{
+    font-size: 1.2rem;
+}
+.newsletter .newsletterForm h2{
+    font-size: 2.1rem;
+}
+.newsletter .newsletterForm #warn{
+    color: #9f3632;
+    font-weight: 800;
+}
+
+.newsletter .people{
+    margin-left: 5rem;
+    width: 55%;
+}
+.newsletter .people .team{
+    width: 60%;
+    height: auto;
+    box-sizing: border-box;
+    background: #8d692bc0;
+}
+.newsletter .people .team .img img{
+    width: 100%;
+    object-fit: cover;
+}
+.newsletter .people .info{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.newsletter .people .name{
+    padding: 0.2rem 1.5rem 1.5rem 0.1rem;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter .people .name h4{
+    padding-bottom: 0.2rem;
+    font-size: 1.4rem;
+}
+
+
+@media screen and (max-width: 1024px){
+	.newsletter{
+    	padding: 7rem 8rem;
+    }
+    .newsletter .newsletterForm{
+    	padding-top: 5rem;
+    	width: 50%;
+    }
+    .newsletter .newsletterForm input[type=submit]{
+    	padding: 0.8rem 5rem;
+    }
+	.newsletter .people .team{
+		width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 991px){
+	.newsletter .newsletterForm p{
+		font-size: 1rem;
+	}
+	.newsletter .newsletterForm h2{
+		font-size: 1.8rem;
+	}
+	.newsletter .people{
+		width: 50%;
+	}
+	.newsletter .people .team{
+		width: 100%;
+	}
+	.newsletter .people .name h4{
+		font-size: 1.1rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.newsletter{
+    	padding: 5rem 3rem;
+    	flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    	}
+    .newsletter .newsletterForm{
+    	padding-top: 2rem;
+    	margin-top: 4rem;
+    	width: 70%;
+    	height: 50vh;
+    	margin-bottom: 1.5rem;
+    	padding-bottom: 5rem;
+    }
+    .newsletter .newsletterForm input[type=email]{
+    	margin-top: 1.8rem;
+    	margin-bottom: 0.8rem;
+    	font-size: 1rem;
+    }
+    .newsletter .newsletterForm input[type=submit]{
+    	font-size: 1rem;
+    	padding: 0.8rem 4rem;
+    }
+    .newsletter .newsletterForm p{
+    	font-size: 1rem;
+    }
+    .newsletter .newsletterForm h2{
+    	font-size: 1.8rem;
+    }
+    .newsletter .people{
+        margin-left: 0;
+    	width: 70%;
+    }
+    .newsletter .people .team{
+    	width: 50%;
+        margin:auto;
+    }
+    .newsletter .people .name h4{
+    	font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 496px){
+	.newsletter{
+        padding: 5rem 2rem;
+        width: 100%;
+    }
+    .newsletter .newsletterForm{
+        width: 100%;
+    }
+    .newsletter .newsletterForm input[type=email]{
+        width: 70%;
+    }
+    .newsletter .newsletterForm input[type=submit]{
+        width: 70%;
+    }
+    .newsletter .newsletterForm h2{
+        font-size: 1.5rem;
+    }
+    .newsletter .people{
+        margin-left: 0;
+        width: 100%;
+    }
+    .newsletter .people .team{
+        width: 60%;
+    }
+}
